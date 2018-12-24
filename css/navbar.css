@@ -8,7 +8,7 @@
         overflow: hidden;
     }
     .navbar-brand{
-        width: 80%;
+        width: 70%;
         font-size: 200%;
         text-decoration: none;
         display: inline-block;
@@ -95,5 +95,15 @@
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
         transition: all 0.3s ease;
+    }
+}
+@media screen and (max-width: 320px) {
+    .navbar-brand{
+        font-size: 150%;
+        width: 55%;
+        margin: 20px 0 0 5px;
+    }
+    .navbar-icon{
+        
     }
 }
