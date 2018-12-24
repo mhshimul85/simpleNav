@@ -5,7 +5,6 @@
     }
     .navbar-header{
         min-height: 60px;
-        overflow: auto;
         position: relative;
     }
     .navbar-brand{
